@@ -1,0 +1,46 @@
+:root{
+    --fondoPrincipal : skyblue;
+    --contenedor: white;
+}
+body{
+    margin-top: 2rem;
+    background-color: var(--fondoPrincipal);
+}
+/* ajustes globales*/
+h1{
+    font-size: 1.5rem;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+p{
+    font-size: .9rem;
+    color: grey;
+    text-align: center;
+}
+/* desarrollo del proyecto */
+
+.contenedor{
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: var(--contenedor);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+img{
+    border-radius: 1rem;
+}
+.copyright{
+    text-align: center;
+    margin-top: 2rem;
+}
+span{
+    font-size: 1.3rem;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    font-size: 0.9rem;
+    text-decoration: none;
+}
